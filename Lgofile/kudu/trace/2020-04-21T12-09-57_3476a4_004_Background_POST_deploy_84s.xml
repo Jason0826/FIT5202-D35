@@ -1,0 +1,26 @@
+<step title="BackgroundTrace" date="2020-04-21T12:09:57.494" instance="3476a4" url="/deploy" method="POST" >
+  <step title="Creating temporary deployment" date="2020-04-21T12:09:57.540" /><!-- duration: 47ms -->
+  <step title="Performing fetch based deployment" date="2020-04-21T12:09:57.603" >
+    <step title="DeploymentManager.Deploy(id:aac1d7d9bf6f05fd9a96b3b21542e749bf3ea763)" date="2020-04-21T12:10:39.640" >
+      <step title="Collecting changeset information" date="2020-04-21T12:10:39.656" /><!-- duration: 31ms -->
+      <step title="Updating submodules" date="2020-04-21T12:10:39.703" /><!-- duration: 31ms -->
+      <step title="Determining deployment builder" date="2020-04-21T12:10:39.828" >
+        <step title="UseMSBuild16: False" date="2020-04-21T12:10:39.875" /><!-- duration: 0ms -->
+        <step title="Builder is BasicBuilder" date="2020-04-21T12:10:39.937" /><!-- duration: 0ms -->
+      </step><!-- duration: 125ms -->
+      <step title="Copying SSH keys" date="2020-04-21T12:10:39.968" /><!-- duration: 16ms -->
+      <step title="Building" date="2020-04-21T12:10:39.984" >
+        <step title="Generating deployment script" date="2020-04-21T12:10:40.031" >
+          <step title="Executing external process" date="2020-04-21T12:10:40.109" type="process" path="starter.cmd" arguments="&quot;D:\Program Files (x86)\SiteExtensions\Kudu\86.20224.4450\bin\node_modules\.bin\kuduscript.cmd&quot; -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --basic --sitePath &quot;D:\home\site\repository&quot;" /><!-- duration: 578ms -->
+          <step title="Saved cached version of the deployment script for command -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --basic --sitePath &quot;D:\home\site\repository&quot;" date="2020-04-21T12:10:40.703" /><!-- duration: 0ms -->
+        </step><!-- duration: 672ms -->
+        <step title="Executing external process" date="2020-04-21T12:10:40.781" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 40674ms -->
+        <step title="Triggering recycle (preview mode disabled)." date="2020-04-21T12:11:21.580" /><!-- duration: 0ms -->
+        <step title="Ignoring FS watcher based recycle request as this is a classic Windows app." date="2020-04-21T12:11:21.580" /><!-- duration: 16ms -->
+        <step title="Skip function trigger and logicapp sync because function is not enabled." date="2020-04-21T12:11:21.595" /><!-- duration: 16ms -->
+      </step><!-- duration: 41768ms -->
+    </step><!-- duration: 42112ms -->
+    <step title="Cleaning up temp files" date="2020-04-21T12:11:21.752" /><!-- duration: 15ms -->
+    <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2020-04-21T12:11:21.783" /><!-- duration: 47ms -->
+  </step><!-- duration: 84259ms -->
+</step><!-- duration: 84368ms -->

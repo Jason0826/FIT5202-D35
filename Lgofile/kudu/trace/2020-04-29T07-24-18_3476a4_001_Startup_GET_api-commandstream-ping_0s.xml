@@ -1,0 +1,3 @@
+<step title="Startup Request" date="2020-04-29T07:24:18.854" instance="3476a4" url="/api/commandstream/ping?shell=CMD&amp;_=1588131246059" method="GET" type="request" pid="17440,2,8" SCM_SKIP_SSL_VALIDATION="0" ScmType="ExternalGit" >
+  <step title="Cleanup Xml Logs" date="2020-04-29T07:24:18.885" /><!-- duration: 15ms -->
+</step><!-- duration: 46ms -->

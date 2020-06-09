@@ -1,0 +1,10 @@
+<step title="Incoming Request" date="2020-04-21T12:10:07.886" instance="3476a4" url="/api/deployments/latest?deployer=GitHub&amp;time=2020-04-21_12-09-57Z" method="GET" type="request" pid="14748,2,10" Connection="Keep-Alive" Authorization="Bas..." Host="safeatschool.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/87.0.7.74" x-ms-request-id="3c88eb44-8dc7-49d2-b081-67d6d647a0d3" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=GitHub&amp;time=2020-04-21_12-09-57Z" CLIENT-IP="52.173.245.249:50584" X-ARR-LOG-ID="3c88eb44-8dc7-49d2-b081-67d6d647a0d3" X-SITE-DEPLOYMENT-ID="safeatschool" WAS-DEFAULT-HOSTNAME="safeatschool.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2020-04-21T12:10:07.886" /><!-- duration: 16ms -->
+  <step title="DeploymentService.GetResult" date="2020-04-21T12:10:07.901" >
+    <step title="DeploymentService.GetLatestDeployment" date="2020-04-21T12:10:07.918" >
+      <step title="DeploymentManager.GetResults" date="2020-04-21T12:10:07.918" /><!-- duration: 46ms -->
+      <step title="Deployment temp-6c07f5d2 is Pending" date="2020-04-21T12:10:07.964" /><!-- duration: 0ms -->
+    </step><!-- duration: 46ms -->
+  </step><!-- duration: 78ms -->
+  <step title="Outgoing response" date="2020-04-21T12:10:07.979" type="response" statusCode="202" statusText="Accepted" Server="Microsoft-IIS/10.0" x-ms-request-id="3c88eb44-8dc7-49d2-b081-67d6d647a0d3" Cache-Control="private" X-AspNet-Version="4.0.30319" Location="https://safeatschool.scm.azurewebsites.net/api/deployments/latest?deployer=GitHub&amp;time=2020-04-21_12-09-57Z" Content-Type="application/json; charset=utf-8" /><!-- duration: 0ms -->
+</step><!-- duration: 94ms -->

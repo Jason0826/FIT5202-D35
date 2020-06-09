@@ -1,0 +1,6 @@
+2020-06-01T03:55:12 sandboxproc.exe C:\DWASFiles\Sites\#1safeatschool\Temp\applicationhost.config False True
+2020-06-01T03:55:12 env XPROC_TYPENAME=Microsoft.Web.Hosting.Transformers.ApplicationHost.SiteExtensionHelper, Microsoft.Web.Hosting, Version=7.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2020-06-01T03:55:12 env XPROC_METHODNAME=Transform
+2020-06-01T03:55:12 Start 'phpmyadmin' site extension transform
+2020-06-01T03:55:12 No 'phpmyadmin' site extension version path
+2020-06-01T03:55:12 sandboxproc.exe complete successfully. Elapsed = 294.00 ms

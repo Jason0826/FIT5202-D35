@@ -1,0 +1,3 @@
+<step title="Startup Request" date="2020-04-29T03:37:25.508" instance="3476a4" url="/api/filesystemhub/reconnect?transport=foreverFrame&amp;messageId=d-7EB9D4D1-H%2C0%7CI%2C4%7CJ%2C1%7CK%2C0&amp;clientProtocol=1.4&amp;connectionToken=Omx%2Btj%2F1WuCxK4xchNKnQeeoq5FUWE3CcXfw2mqDk0FqmwkvvKN66Xz%2FenTwRZZ3TVJSwzGHzxpSv7DFg6gAPhzFq87pIoF9vzuc9uW3hVw66bHQil5OvapUqaza6%2FmI&amp;connectionData=%5B%7B%22name%22%3A%22filesystemhub%22%7D%5D&amp;tid=0&amp;frameId=1" method="GET" type="request" pid="22752,2,7" SCM_SKIP_SSL_VALIDATION="0" ScmType="ExternalGit" >
+  <step title="Cleanup Xml Logs" date="2020-04-29T03:37:25.524" /><!-- duration: 16ms -->
+</step><!-- duration: 31ms -->
